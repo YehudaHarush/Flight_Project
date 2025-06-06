@@ -1,0 +1,35 @@
+.home-container {
+    background-image: url('https://images.unsplash.com/photo-1542232908484-5d6f0d4b33c0');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
