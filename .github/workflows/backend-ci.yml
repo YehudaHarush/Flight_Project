@@ -38,7 +38,7 @@ jobs:
 
       - name: Install Project Dependencies
         run: npm ci
-        working-directory: ./backend
+        working-directory: ./Backend
 
       - name: Setup Environment Variables for Test
         run: |
