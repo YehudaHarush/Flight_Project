@@ -66,6 +66,10 @@ jobs:
         run: npx sequelize-cli db:migrate --env test
         working-directory: ./Backend
 
+      - name: Run Seeders
+        run: npx sequelize-cli db:seed:all --env test
+        working-directory: ./Backend
+
       - name: Run Tests
         run: npm test -- --runInBand --detectOpenHandles --verbose
         working-directory: ./Backend
